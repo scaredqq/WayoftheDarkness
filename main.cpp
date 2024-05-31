@@ -1,8 +1,8 @@
 #include <SFML/Graphics.hpp>
-#include "hero.h"
-#include "game.h"
-#include "mainMenu.h"
-#include "snowFlake.h"
+#include "hero/hero.h"
+#include "game/game.h"
+#include "menu/mainMenu.h"
+#include "snowFlake/snowFlake.h"
 #include <iostream>
 
 

@@ -1,0 +1,49 @@
+﻿  main.cpp
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,41): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,41): warning C4305:         with
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,41): warning C4305:         [
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,41): warning C4305:             T=float
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,41): warning C4305:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,35): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,35): warning C4305:         with
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,35): warning C4305:         [
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,35): warning C4305:             T=float
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\hero\hero.h(16,35): warning C4305:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\menu\mainMenu.h(40,8): warning C4101: cd: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(114,35): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(130,14): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(181,30): warning C4244: -=: преобразование "float" в "T", возможна потеря данных
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(181,30): warning C4244:         with
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(181,30): warning C4244:         [
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(181,30): warning C4244:             T=unsigned int
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(181,30): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,67): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,67): warning C4244:         with
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,67): warning C4244:         [
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,67): warning C4244:             T=unsigned int
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,67): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,44): warning C4244:         with
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,44): warning C4244:         [
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,44): warning C4244:             T=unsigned int
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(222,44): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\scence\scence.h(232,14): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  SFLMPRESET.vcxproj -> C:\Users\prote\OneDrive\Документы\Visual Studio 2022\Projects\sflmPreset\x64\Debug\SFLMPRESET.exe
