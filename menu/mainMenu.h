@@ -17,7 +17,6 @@ using namespace sf;
 
 
 
-
 void menu(RenderWindow& window) {
 	Texture menuTexture1, menuTexture2, menuTexture3, aboutTexture, menuBackground, menu;
 	menu.loadFromFile("otherData/textures/mainMenuText/animationBG.jpg");
@@ -91,6 +90,8 @@ void menu(RenderWindow& window) {
 		snowflakes.emplace_back(Snowflake(start_position));
 	}
 
+
+
 	while (isMenu)
 	{
 		start.setColor(Color::White);
@@ -117,11 +118,14 @@ void menu(RenderWindow& window) {
 			if (menuNum == 1) {
 				press.play();
 				isMenu = false;
+
 			}
 			if (menuNum == 2) { press.play();  window.draw(gameoverBackground);  window.draw(credit); window.display(); while (!Keyboard::isKeyPressed(Keyboard::Escape)); }
 			if (menuNum == 3) { press.play();   window.close(); isMenu = false; }
 
 		}
+
+
 
 
 		float time = clock.getElapsedTime().asSeconds();
