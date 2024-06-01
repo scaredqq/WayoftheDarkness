@@ -4,7 +4,7 @@
 
 
 
-
+int dir = 0;
 
 void Hero::draw(sf::RenderWindow& window)
 {
@@ -33,7 +33,7 @@ void Hero::move(sf::RenderWindow& window, float&  playerX, float& playerY, float
 	
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-		playerX -= 0.2 * time;
+		dir = 1;
 		CurrentFrame += 0.005 * time; 
 		if (CurrentFrame > 4) CurrentFrame -= 3; 
 		if (CurrentFrame != 0) {
@@ -42,7 +42,7 @@ void Hero::move(sf::RenderWindow& window, float&  playerX, float& playerY, float
 		Idle = true;
 	}
 	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::D) || sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-		playerX += 0.2 * time;
+		dir = 2;
 		CurrentFrame += 0.005 * time; 
 		if (CurrentFrame > 4) CurrentFrame -= 3;
 		sprite.setTextureRect(sf::IntRect(1024 * int(CurrentFrame), 3072, -1024, 1024));
@@ -65,6 +65,9 @@ void Hero::move(sf::RenderWindow& window, float&  playerX, float& playerY, float
     sprite.setPosition(playerX, playerY);
 
 }
+
+
+
 
 void Hero::healthIndicator(sf::RenderWindow& window, int& health)
 {
@@ -104,8 +107,15 @@ void Hero::healthIndicator(sf::RenderWindow& window, int& health)
 	}
 }
 
+void Hero::update(float& playerX, float& playerY, float time)
+{
+	switch (dir) {
+	case 1:
+		playerX -= 0.2 * time;
+		break;
+	case 2:
+		playerX += 0.2 * time;
+		break;
+	}
 
-
-
-
-
+}
