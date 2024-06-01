@@ -12,6 +12,8 @@ private:
     float x, y;
 
 public:
+    int dir = 0;
+
     Hero(std::string spritePath, float posX, float posY) {
         sprite.scale(sf::Vector2f(0.15, 0.15));
         if (!texture.loadFromFile(spritePath)) {
@@ -33,7 +35,8 @@ public:
 
     void healthIndicator(sf::RenderWindow& window, int& health);
 
-
+    void update(float& playerX, float& playerY, float time);
+    
 
 
 
